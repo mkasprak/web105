@@ -1,7 +1,10 @@
 body{
-    background-image: url(../images/aurora-borealis.jpg);
+
+    background-image: url('../images/aurora-borealis.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-attachment: fixed;
+    background-size: cover;
+    color:ivory;
 }
 
 div, header{
@@ -9,10 +12,47 @@ div, header{
     margin: 20px auto;
     border: 3px solid gold;
     background:rgba(0,0,0,.7);
+    overflow:auto;
+    padding: 15px;
+}
+
+div{
     min-height: 250px;
 }
+
 
 h1,h2{
     text-align: center;
     color: gold;
 }
+
+#background{
+    min-height: 500px;
+    background-image: url('../images/tree.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+        
+}
+
+#img-map{
+
+}
+#float-left img{
+    float:left;
+    width: 40%;
+}
+
+
+#float-right{}
+
+#picture-tag{}
+
+#linked-image img{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+
+}
+
+#img-as-link{}
